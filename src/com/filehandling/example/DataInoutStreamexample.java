@@ -14,7 +14,7 @@ public class DataInoutStreamexample {
     }
     public static void writeData()throws IOException {
         DataOutputStream stream=new DataOutputStream(new FileOutputStream(path));
-        stream.write("hello baby i am rakesh".getBytes());
+        stream.write("hello i am rakesh".getBytes());
         stream.close();
     }
     public static void readData() throws IOException{
